@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="D:\Project_Matrimony\env"
+VIRTUAL_ENV="D:\dparol\Matchmind_matrimony\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

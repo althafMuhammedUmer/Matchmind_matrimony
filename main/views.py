@@ -1,20 +1,20 @@
 
 from django.shortcuts import render,redirect
-from .models import PersonalityTypes
-from django.shortcuts import render
-from .forms import PersonalityQtnForm
+# from .models import PersonalityTypes
+# from django.shortcuts import render
+# from .forms import PersonalityQtnForm
 
-# Create your views here.
+# # Create your views here.
 
 
 def home(request):
     return render(request,'HomePage.html')
 
 
-def personalityType(request):
+# def personalityType(request):
    
-    allTypes=PersonalityTypes.objects.all()
-    return render(request,'PersonalityTypes.html',{'alltypes':allTypes})
+#     allTypes=PersonalityTypes.objects.all()
+#     return render(request,'PersonalityTypes.html',{'alltypes':allTypes})
 
 
 

@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=D:\Project_Matrimony\env
+set VIRTUAL_ENV=D:\dparol\Matchmind_matrimony\env
 
 if not defined PROMPT set PROMPT=$P$G
 
