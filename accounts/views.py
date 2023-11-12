@@ -15,7 +15,7 @@ def userlogin(request):
         
         user = authenticate(request, email=email, password=password)
 
-        if user is not None and user.is_superuser:
+        if user is not None :
 
             login(request, user)
             return redirect(home)
@@ -26,7 +26,6 @@ def userlogin(request):
     return render(request, 'login.html')
 
 def user_register(request):
-    
     if request.method == "POST":
         username = request.POST['username']
         email = request.POST['email']
